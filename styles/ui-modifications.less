@@ -1,0 +1,71 @@
+@import "colors";
+
+// Giving line numbers room to breathe.
+atom-text-editor::shadow {
+    .line-number {
+        padding-left: 18px !important;
+    }
+}
+
+// Match One Dark UI's component colours to Earthsong syntax theme.
+.theme-one-dark-ui {
+
+    .tab-bar {
+        .tab {
+            .title {
+                color: @brown;
+            }
+
+            &.active .title {
+                color: lighten(@very-light-brown, 10%);
+            }
+
+            .close-icon {
+                color: @yellow !important;
+            }
+        }
+    }
+
+    a.link {
+        color: @yellow;
+
+        &:hover {
+            color: lighten(@yellow, 10%);
+        }
+    }
+
+    .tree-view {
+        .header.list-item,
+        .list-item {
+            color: lighten(@light-brown, 10%);
+        }
+    }
+
+    .status-bar,
+    .status-bar a {
+        color: @brown !important;
+    }
+
+    .status-added,
+    .status-added > .list-item {
+        color: lighten(@green, 7%) !important;
+    }
+
+    .status-modified,
+    .status-modified > .list-item {
+        color: lighten(@yellow, 13%) !important;
+    }
+
+    .status-removed {
+        color: @red !important;
+    }
+
+    .status-renamed {
+        color: @dark-green !important;
+    }
+
+    .status-ignored,
+    .status-ignored > .list-item {
+        color: @brown !important;
+    }
+}
