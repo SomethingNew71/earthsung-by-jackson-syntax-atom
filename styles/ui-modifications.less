@@ -1,15 +1,18 @@
 @import "colors";
 
-// Giving line numbers room to breathe.
-atom-text-editor::shadow {
-    .line-number {
-        padding-left: 18px !important;
+// Only apply these styles if user adds class hook to body element.
+// This can be done in user's init script.
+// ie) document.body.classList.add('earthsong-modify-ui')
+.earthsong-modify-ui {
+
+    // Giving line numbers room to breathe.
+    atom-text-editor::shadow {
+        .line-number {
+            padding-left: 18px !important;
+        }
     }
-}
 
-// Match One Dark UI's component colours to Earthsong syntax theme.
-.theme-one-dark-ui {
-
+    // Match One Dark UI's component colours to Earthsong syntax theme.
     .tab-bar {
         .tab {
             .title {
@@ -21,7 +24,7 @@ atom-text-editor::shadow {
             }
 
             .close-icon {
-                color: @yellow !important;
+                color: @yellow;
             }
         }
     }
@@ -43,7 +46,7 @@ atom-text-editor::shadow {
 
     .status-bar,
     .status-bar a {
-        color: @brown !important;
+        color: @brown;
     }
 
     .status-added,
