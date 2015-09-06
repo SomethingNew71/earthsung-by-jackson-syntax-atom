@@ -1,7 +1,7 @@
 {
   "name": "earthsung-by-jackson-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A port of Dayle Rees' Earthsong theme.",
   "keywords": [
     "syntax",
