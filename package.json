@@ -1,13 +1,18 @@
 {
-  "name": "earthsong-one-dark-syntax",
+  "name": "earthsung-by-jackson-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A port of Dayle Rees' Earthsong theme.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dayle",
+    "rees",
+    "earthsong",
+    "earthsung",
+    "port"
   ],
-  "repository": "https://github.com/atom/earthsong-one-dark-syntax",
+  "repository": "https://github.com/jesseleite/earthsung-by-jackson-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
