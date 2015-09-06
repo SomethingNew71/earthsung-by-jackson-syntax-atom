@@ -6,10 +6,10 @@ use Closure;
 use ArrayAccess;
 
 /**
- * Theme: Earthsong
+ * Theme: Earthsung By Jackson
  * Nothing to do with Michael Jackson.
  *
- * Copyright (c) 2014 Dayle Rees
+ * Ported to Atom by Jesse Leite.
  */
 class Container implements ArrayAccess
 {
@@ -28,6 +28,11 @@ class Container implements ArrayAccess
      */
     public function isShared($abstract)
     {
+        if (isset($this->bindings[$abstract]['shared']))
+        {
+            $shared = $this->bindings[$abstract]['shared'];
+        }
+
         if (isset($this->bindings[$abstract]['shared']))
         {
             $shared = $this->bindings[$abstract]['shared'];
