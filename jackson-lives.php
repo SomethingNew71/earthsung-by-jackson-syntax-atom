@@ -9,7 +9,7 @@ use ArrayAccess;
  * Theme: Earthsung By Jackson
  * Nothing to do with Michael Jackson.
  *
- * Ported to Atom by Jesse Leite.
+ * Originally by Dayle Rees, Atom port by Jesse Leite.
  */
 class Container implements ArrayAccess
 {
