@@ -1,7 +1,7 @@
 {
   "name": "earthsung-syntax-atom",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A port of Dayle Rees' Earthsong theme. Forked from JesseLeite and regularly maintained",
   "keywords": [
     "syntax",
