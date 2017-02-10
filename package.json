@@ -1,8 +1,8 @@
 {
-  "name": "earthsung-by-jackson-syntax",
+  "name": "earthsung-syntax-atom",
   "theme": "syntax",
-  "version": "0.3.0",
-  "description": "A port of Dayle Rees' Earthsong theme.",
+  "version": "1.0.0",
+  "description": "A port of Dayle Rees' Earthsong theme. Forked from JesseLeite and regularly maintained",
   "keywords": [
     "syntax",
     "theme",
@@ -10,9 +10,14 @@
     "rees",
     "earthsong",
     "earthsung",
-    "port"
+    "earthsang",
+    "port",
+    "fork",
+    "warm",
+    "easy",
+    "eyes"
   ],
-  "repository": "https://github.com/jesseleite/earthsung-by-jackson-syntax-atom",
+  "repository": "https://github.com/SomethingNew71/earthsung-syntax-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
