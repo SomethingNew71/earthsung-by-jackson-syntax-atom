@@ -1,8 +1,7 @@
 # Earthsung By Jackson - Atom 1.13 +
+## Forked from [JesseLeite](https://github.com/JesseLeite/earthsung-by-jackson-syntax-atom) and regularly updated.
 
 A port of [Dayle Rees](http://daylerees.github.io)' Earthsong theme for Atom.
-
-Forked from [JesseLeite](https://github.com/JesseLeite/earthsung-by-jackson-syntax-atom) and regularly updated.
 
 ## UI Integration
 
