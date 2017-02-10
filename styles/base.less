@@ -1,6 +1,6 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor, atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -51,279 +51,279 @@ atom-text-editor, :host {
   }
 }
 
-atom-text-editor .search-results .marker .region,
-:host .search-results .marker .region {
+atom-text-editor .search-results .syntax--marker .region,
+atom-text-editor .search-results .syntax--marker .region {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region,
-:host .search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region,
+atom-text-editor .search-results .syntax--marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
-.comment {
+.syntax--comment {
   color: @brown;
 }
 
-.entity {
-  &.name.type {
+.syntax--entity {
+  &.syntax--name.syntax--type {
     color: @very-light-brown;
   }
 
-  &.other.inherited-class {
+  &.syntax--other.syntax--qinherited-class {
     color: @green;
   }
 }
 
-.keyword {
+.syntax--keyword {
   color: @red;
 
-  &.control {
+  &.syntax--control {
     color: @red;
   }
 
-  &.operator {
+  &.syntax--operator {
     color: @red;
   }
 
-  &.other.special-method {
+  &.syntax--other.syntax--special-method {
     color: @dark-green;
   }
 
-  &.other.unit {
+  &.syntax--other.syntax--unit {
     color: @red;
   }
 
-  &.other.use {
+  &.syntax--other.syntax--use {
     color: @green;
   }
 
-  &.other.namespace {
+  &.syntax--other.syntax--namespace {
     color: @green;
   }
 }
 
-.storage {
+.syntax--storage {
   color: @green;
 
-  &.modifier {
+  &.syntax--modifier {
     color: @red;
   }
 }
 
-.constant {
+.syntax--constant {
   color: @red;
 
-  &.character.escape {
+  &.syntax--character.syntax--escape {
     color: @dark-green;
   }
 
-  &.numeric {
+  &.syntax--numeric {
     color: @red;
   }
 
-  &.other.color {
+  &.syntax--other.syntax--color {
     color: @dark-green;
   }
 
-  &.other.symbol {
+  &.syntax--other.syntax--symbol {
     color: @green;
   }
 }
 
-.variable {
+.syntax--variable {
   color: @very-light-brown;
 
-  &.interpolation {
+  &.syntax--interpolation {
     color: darken(@red, 10%);
   }
 
-  &.parameter.function {
+  &.syntax--parameter.syntax--function {
     color: @syntax-text-color;
   }
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   background-color: @red;
   color: @syntax-background-color;
 }
 
-.string {
+.syntax--string {
   color: @yellow;
 
-  &.regexp {
+  &.syntax--regexp {
     color: @dark-green;
 
-    .source.ruby.embedded {
+    .syntax--source.syntax--ruby.syntax--embedded {
       color: @red;
     }
   }
 
-  &.other.link {
+  &.syntax--other.syntax--link {
     color: @red;
   }
 }
 
-.punctuation {
-  &.definition {
-    &.comment {
+.syntax--punctuation {
+  &.syntax--definition {
+    &.syntax--comment {
       color: .comment;
     }
 
-    &.string {
+    &.syntax--string {
       color: .string;
     }
 
-    &.variable,
-    &.parameters,
-    &.array {
+    &.syntax--variable,
+    &.syntax--parameters,
+    &.syntax--array {
       color: @syntax-text-color;
     }
 
-    &.heading,
-    &.identity {
+    &.syntax--heading,
+    &.syntax--identity {
       color: @dark-green;
     }
 
-    &.bold {
+    &.syntax--bold {
       color: @red;
       font-weight: bold;
     }
 
-    &.italic {
+    &.syntax--italic {
       color: @red;
       font-style: italic;
     }
   }
 
-  &.section.embedded {
+  &.syntax--section.syntax--embedded {
     color: @very-light-brown;
   }
 
 }
 
-.support {
-  &.class {
+.syntax--support {
+  &.syntax--class {
     color: @very-light-brown;
   }
 
-  &.function  {
+  &.syntax--function  {
     color: @green;
 
-    &.any-method {
+    &.syntax--any-method {
       color: @dark-green;
     }
   }
 }
 
-.entity {
-  &.name.function {
+.syntax--entity {
+  &.syntax--name.syntax--function {
     color: @dark-green;
   }
 
-  &.name.class, &.name.type.class {
+  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
     color: @very-light-brown;
   }
 
-  &.name.section {
+  &.syntax--name.syntax--section {
     color: @dark-green;
   }
 
-  &.name.tag {
+  &.syntax--name.syntax--tag {
     color: @red;
   }
 
-  &.other.attribute-name {
+  &.syntax--other.syntax--attribute-name {
     color: @dark-green;
 
-    &.id {
+    &.syntax--id {
       color: @dark-green;
     }
   }
 }
 
-.meta {
-  &.class {
+.syntax--meta {
+  &.syntax--class {
     color: @red;
   }
 
-  &.link {
+  &.syntax--link {
     color: @red;
   }
 
-  &.require {
+  &.syntax--require {
     color: @dark-green;
   }
 
-  &.selector {
+  &.syntax--selector {
     color: @red;
   }
 
-  &.separator {
+  &.syntax--separator {
     background-color: @brown;
     color: @syntax-text-color;
   }
 }
 
-.none {
+.syntax--none {
   color: @syntax-text-color;
 }
 
-.markup {
-  &.bold {
+.syntax--markup {
+  &.syntax--bold {
     color: @red;
     font-weight: bold;
   }
 
-  &.changed {
+  &.syntax--changed {
     color: @red;
   }
 
-  &.deleted {
+  &.syntax--deleted {
     color: @red;
   }
 
-  &.italic {
+  &.syntax--italic {
     color: @red;
     font-style: italic;
   }
 
-  &.heading .punctuation.definition.heading {
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @dark-green;
   }
 
-  &.inserted {
+  &.syntax--inserted {
     color: @green;
   }
 
-  &.list {
+  &.syntax--list {
     color: @red;
   }
 
-  &.quote {
+  &.syntax--quote {
     color: @red;
   }
 
-  &.raw.inline {
+  &.syntax--raw.syntax--inline {
     color: @green;
   }
 }
 
-.source.gfm .markup {
+.syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
-  &.heading {
+  &.syntax--heading {
     color: @green;
   }
 }
 
-.source.php {
-  .other.phpdoc {
+.syntax--source.syntax--php {
+  .syntax--other.syntax--phpdoc {
     color: @light-brown;
   }
 }
 
 atom-text-editor[mini] .scroll-view,
-:host([mini]) .scroll-view {
+atom-text-editor([mini]) .scroll-view {
   padding-left: 1px;
 }
