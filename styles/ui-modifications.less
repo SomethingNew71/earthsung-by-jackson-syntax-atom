@@ -6,7 +6,7 @@
 .earthsung-modify-ui {
 
     // Giving line numbers room to breathe.
-    atom-text-editor::shadow {
+    atom-text-editor.editor {
         .line-number {
             padding-left: 18px !important;
         }
@@ -14,12 +14,12 @@
 
     // Match One Dark UI's component colours to Earthsong syntax theme.
     .tab-bar {
-        .tab {
-            .title {
+        .syntax--tab {
+            .syntax--title {
                 color: @brown;
             }
 
-            &.active .title {
+            &.active .syntax--title {
                 color: lighten(@very-light-brown, 10%);
             }
 
@@ -29,7 +29,7 @@
         }
     }
 
-    a.link {
+    a.syntax--link {
         color: @yellow;
 
         &:hover {
@@ -38,7 +38,7 @@
     }
 
     .tree-view {
-        .header.list-item,
+        .syntax--header.list-item,
         .list-item {
             color: lighten(@light-brown, 10%);
         }
