@@ -1,5 +1,6 @@
 # Earthsung By Jackson - Atom 1.13 +
-## Forked from [JesseLeite](https://github.com/JesseLeite/earthsung-by-jackson-syntax-atom) and regularly updated.
+
+**Forked from [JesseLeite](https://github.com/JesseLeite/earthsung-by-jackson-syntax-atom) and regularly updated.**
 
 A port of [Dayle Rees](http://daylerees.github.io)' Earthsong theme for Atom.
 
@@ -13,4 +14,4 @@ document.body.classList.add('earthsung-modify-ui')
 
 ## Screenshot
 
-![A screenshot of your theme](https://raw.githubusercontent.com/JesseLeite/earthsung-by-jackson-syntax-atom/master/screenshot.png)
+![A screenshot of your theme](https://github.com/SomethingNew71/earthsung-syntax-atom/blob/master/screenshot.png?raw=true)
