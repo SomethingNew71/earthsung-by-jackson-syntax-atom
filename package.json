@@ -20,6 +20,7 @@
   "repository": "https://github.com/SomethingNew71/earthsung-syntax-atom",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0",
+    "node": ">=6.5.0"
   }
 }
